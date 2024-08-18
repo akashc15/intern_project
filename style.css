@@ -1,12 +1,7 @@
-/* Adjustments for the Deep Thought logo and items */
-
-
-
 .deep-thought {
-  /* Vertically center-align the content */
-  position: relative;
-    border-style: groove;
-    border-width: 1px;
+    position: absolute;
+    border:transparent;
+    width: 1504px;
     background-color: rgba(240, 240, 240, 1);
     height: 90px;
     box-shadow: 0px 4px 4px rgba(0, 0,0, 0.25);
@@ -21,7 +16,7 @@
   }
   
  .items {
-    position: relative;
+    position: absolute;
     margin-left: 1133px;
     bottom: 24px;
    
@@ -44,9 +39,9 @@
   }
   .container {
     height: 37px;
-    position: relative;
+    position: absolute;
     margin-left: 1345px;
-    bottom: 55px;
+    bottom: 15px;
   }
   
   .dot {
@@ -71,11 +66,11 @@ nav {
 /* Expanded State */
 .spa {
   display: none; /* Hide expanded state by default */
-  position: relative;
+  position: absolute;
   height: 747px;
   width: 394px;
   background-color: white;
-  bottom: 34px;
+  bottom: -785px;
   border-radius: 0px 22px 0px 0px;
 }
 
@@ -89,8 +84,8 @@ nav {
 /* Collapsed State */
 .collapsed-state {
   display: block; /* Show collapsed state by default */
-  position: relative;
-  bottom: 35px;
+  position:absolute;
+  bottom: -785px;
   width: 132px;
   height: 748px;
   border: transparent;
@@ -977,7 +972,7 @@ nav {
                             box-shadow: -2px -2px 6px 0px rgba(0, 0, 0, 0.15);
                            }
                            .card4{
-                            position: relative;
+                            position: absolute;
                             margin-left: 746px;
                             bottom: -1538px;
                             margin-top: -1368px;
